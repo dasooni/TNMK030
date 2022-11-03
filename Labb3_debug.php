@@ -1,5 +1,5 @@
 <?php
 	error_reporting(E_ALL);
 	ini_set("display_errors", 1);
-	include("Laboration3.php");
+	include("lab3.php");
 ?>
