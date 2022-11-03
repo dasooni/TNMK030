@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta name='Author' content='Dasmit Sethi'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogg</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="lab3.js"></script>
+    <script src = "lab2.js"></script>
+</head>
+
+<body>
+
+    <div class = "navbar">
+        <nav>
+            <ul>
+                <a href="index.html">Hem</a>
+                <a href="minions.html">Film: Minions (2015)</a>
+                <a href=form.html>Blogg</a>
+                <a href="lab3.php" class="active">Lab 3</a>
+                <button onclick = "darkMode()"> Dark Mode </button>
+                <button onclick = "lightMode()"> Light Mode </button>
+            </ul>
+        </nav>
+    </div>
+    <br> <br> <br> <br> 
+    <form action="Labb3_debug.php" method="post"> <!--PHP_SELF-->
+        <label for="authorID">Name:</label>
+        <input type="text" id="authorID" name="author" placeholder="Name" autofocus>
+		
+        <label for="passwordID">Password:</label>
+        <input type="'text" id="passwordID" name="password" placeholder="Password" required>
+		
+        <label for="headingID">Title:</label>
+        <input type="text" id="headingID" name="heading" maxlength="25" placeholder="Title"><br>
+		
+        <label for="entryID">Content</label><br>
+        <textarea id="entryID" name="entry" rows="6" cols="47"></textarea><br>
+		
+        <input type="submit">
+    </form>
+    
+</body>
+</html>

@@ -13,8 +13,9 @@ body {
   }
 
   hr {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
   }
+
   
   .stuff {
     display: inline-block;
@@ -71,3 +72,14 @@ body {
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  color: black;
+}
+
+
