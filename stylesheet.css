@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(135, 188, 206);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 5px;
+    width: 75%;
+    height: 1000px;
+  }
+
+  hr {
+    border: 1px solid black;
+  }
