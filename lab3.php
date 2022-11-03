@@ -39,7 +39,8 @@
 	
     <?php
 	// Koppla upp mot databasen
-	$connection = mysqli_connect("mysql.itn.liu.se","blog_edit","bloggotyp","blog");
+	//$connection = mysqli_connect("mysql.itn.liu.se","blog_edit","bloggotyp","blog");
+    $connection = mysqli_connect("mysql.itn.liu.se","blog", "", "blog");
 	if(!$connection){
 		die('MySQL connection error');
 	}
