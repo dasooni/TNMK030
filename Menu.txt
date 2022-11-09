@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+
+<html lang ="sv">
+    <head>
+        <title> Dasmit Sethi </title>
+        <meta charset="UTF-8">
+        <meta name = "description" content = "Information om personen Dasmit Sethi.">
+        <meta name = "author" content ="Dasmit Sethi">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <script src = "lab2.js"></script>
+        <div class = "navbar">
+            <nav>
+                <ul>
+                    <a href="index.html">Hem</a>
+                    <a href="minions.html">Film: Minions (2015)</a>
+                    <a href=lab4main.php>Blogg</a>
+                    <a href="view.php" class="active">Lab 3</a>
+                    <button onclick = "darkMode()"> Dark Mode </button>
+                    <button onclick = "lightMode()"> Light Mode </button>
+                </ul>
+            </nav>
+        </div>

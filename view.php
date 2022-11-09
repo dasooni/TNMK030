@@ -1,16 +1,17 @@
-<?php
+<?php include "Menu.txt";
+
 $limit = $_GET['limit'];
 $search = $_GET['search'];
 ?>
 
 <div id="nform">
-	<form method="GET" action="view.php">
+	<form method="GET" action="Showposts.php">
 		<input type="submit" value="Show last posts" name="limit">
 	</form>
 </div>
 	
 <div id="nform">
-	<form action="view.php" method="GET">
+	<form action="Showposts.php" method="GET">
 		<input text="search" name="search">
 		<input type="submit" value="search"><br>
 	</form>

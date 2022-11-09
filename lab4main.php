@@ -1,10 +1,12 @@
 <?php 
 error_reporting(E_ALL);
 ini_set("display_errors",1);
+
+include "Menu.txt"; 
 ?>
 
 <div id="nform">
-  <form method="POST" action="submit.php">
+  <form method="POST" action="Submit.php">
 
     <label for="username">Username:</label><br>
     <input type="text" id="username" name="author" placeholder="Username" size="50"><br>
