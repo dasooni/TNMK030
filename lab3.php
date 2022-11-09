@@ -76,7 +76,7 @@
 			mysqli_query($connection, $query);
 		}
 	} 
-	$result = mysqli_query($connection, $sql);
+	$result = mysqli_query($connection, $sql) or die(mysqli_error($connection));
 	// Skriv ut alla poster i svaret
 	while ($row = mysqli_fetch_array($result)){
 		$heading = $row['entry_heading'];
